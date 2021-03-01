@@ -1,0 +1,15 @@
+1.git init
+2.git status
+3.git add .
+4.git commit -m "msg"
+5.git checkout - for undo the changes in working area before adding them
+6.git reset HEAD filename - for unstage the file but changes are in working area
+7.git reset HEAD -it removes all the commit in local //git reset HEAD~1 remove the latest commit
+8.git reset --mixed HEAD~1 -it removes recent the commit and put it in working area
+9.git reset --soft HEAD~1 -it removes the recent commit and put it in staging area
+10.git reset --hard HEAD~1 -it removes the recent commit completely
+11.git revert commitID -it removes the all the change in that commit and make a fresh commit 
+12.git branch
+
+
+https://www.youtube.com/watch?v=CRlGDDprdOQ
