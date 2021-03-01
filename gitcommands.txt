@@ -9,7 +9,9 @@
 9.git reset --soft HEAD~1 -it removes the recent commit and put it in staging area
 10.git reset --hard HEAD~1 -it removes the recent commit completely
 11.git revert commitID -it removes the all the change in that commit and make a fresh commit 
-12.git branch
+12.git branch -to create a new branch
+13.git branch checkout newbranch -this can switch to newbranch
+14.
 
 
 https://www.youtube.com/watch?v=CRlGDDprdOQ
