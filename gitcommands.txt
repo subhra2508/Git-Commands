@@ -11,7 +11,10 @@
 11.git revert commitID -it removes the all the change in that commit and make a fresh commit 
 12.git branch -to create a new branch
 13.git branch checkout newbranch -this can switch to newbranch
-14.
+14.git branch -d test1 -delete branch
+15.git merge test1 -merge a branch
+16.git merge --squash test1 - merge the test1 to master but not the test1 commits //then run git commit -m "merging test1"
+17.git rebase master - it merge it to the after of the master branch//moves the feature branch f1 commit to after the master branch m3 commit.
 
 
-https://www.youtube.com/watch?v=CRlGDDprdOQ
+ 
